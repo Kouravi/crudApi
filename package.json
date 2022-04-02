@@ -1,0 +1,23 @@
+{
+  "name": "a-proyect",
+  "version": "1.0.0",
+  "description": "Cree una Api con JavaScript y las tecnologias y framewords relacionados al lenguaje",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "lint": "standart --fix",
+    "prettier": "prettier --write .",
+    "prov": "node index.js"
+  },
+  "author": "Jesus",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "prettier": "^2.6.1",
+    "standart": "^6.1.0"
+  }
+}
